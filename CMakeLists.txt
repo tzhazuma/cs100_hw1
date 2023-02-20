@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.24)
+project(cs100_hw1)
+set(CMAKE_CXX_STANDARD 23)
+add_executable(cs100_hw1 main.cpp)
+add_executable(1.2 1.2.cpp)
+add_executable(1.3 1.3.cpp)
+add_executable(cs100_lec_2_20_test cs100_lec_2_20_test.cpp)
+add_executable(pa1.2 pa1.2.cpp)
